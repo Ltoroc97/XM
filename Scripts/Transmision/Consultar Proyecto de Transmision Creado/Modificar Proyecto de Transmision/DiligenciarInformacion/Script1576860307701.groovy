@@ -19,14 +19,19 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Transmision/Consultar Proyecto de Transmision Creado/Modificar Proyecto de Transmision/SeleccionarOpcion_DatosBasicos'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_XM/textarea_Descripcin_areaDesc'), 'se adiciona la modificación. Automatización de Pruebas, se adiciona la modificación. Se valida el estado de Aprobación y la modificación de nuevo.')
+WebUI.setText(findTestObject('Object Repository/Abrir Navegador/textarea_Descripcin_areaDesc'), 'se adiciona la modificación. Automatización de Pruebas, se adiciona la modificación. Se valida el estado de Aprobación y la modificación de nuevo.')
 
-WebUI.setText(findTestObject('Modulo Transmision/Consultar Proyecto de Transmision/Modificar Proyecto de Transmision/DiligenciarInformacion/Observacion del cambio'), 
-    'Se verifica el cambio de estado')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Modulo Transmision/Consultar Proyecto de Transmision/Modificar Proyecto de Transmision/DiligenciarInformacion/button_send Enviar'))
+WebUI.click(findTestObject('Object Repository/Abrir Navegador/button_Fecha de puesta en operacin (FPO)_bt_74cbdd'))
 
-WebUI.click(findTestObject('Modulo Transmision/Consultar Proyecto de Transmision/Modificar Proyecto de Transmision/DiligenciarInformacion/button_OK'))
+WebUI.click(findTestObject('Object Repository/Abrir Navegador/div_31'))
 
-WebUI.click(findTestObject('Modulo Transmision/Consultar Proyecto de Transmision/Modificar Proyecto de Transmision/DiligenciarInformacion/button_Aceptar'))
+WebUI.setText(findTestObject('Abrir Navegador/textarea_Observacin relacionada con el cambio_nameTextObservation'), 'Se realiza la validación de Cambio estado')
+
+WebUI.click(findTestObject('Object Repository/Abrir Navegador/button_send Enviar'))
+
+WebUI.click(findTestObject('Object Repository/Abrir Navegador/button_Aceptar'))
+
+WebUI.click(findTestObject('Object Repository/Abrir Navegador/button_OK'))
 
