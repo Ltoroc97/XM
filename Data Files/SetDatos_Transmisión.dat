@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>SetDatos_Transmisión</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>fd740cd2-fff6-46bc-86ff-f9af21ff119b</dataFileGUID>
+   <dataSourceUrl>C:\Users\Ltoroc\Documents\INTERGRUPO\AUTOMATIZACION_PROYECTOS\PROYECTOS\XM\Automatización\XM - Modelo de datos común\Data Files\SetDatos.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>false</value>
+      </entry>
+   </properties>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>SetDatos</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

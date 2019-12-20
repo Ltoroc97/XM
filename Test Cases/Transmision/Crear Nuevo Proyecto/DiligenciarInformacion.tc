@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DiligenciarInformacion</name>
+   <tag></tag>
+   <comment>Ingresar Nombre del Proyecto
+Seleccionar promotor
+Ingresar Descripción
+Seleccionar Fecha de Operación
+Seleccionar Tipo de Proyecto
+Seleccionar área Operativa
+Seleccionar Sub área Operativa
+Seleccionar Botón Enviar para guardar el Proyecto de Transmisión</comment>
+   <testCaseGuid>44e69e3a-2b4a-436b-a96d-e007bf2725da</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>45175fe3-9e79-4fe3-8cd8-7de3cd6a5a9e</id>
+      <masked>false</masked>
+      <name>NombreProyectoTransmision</name>
+   </variable>
+</TestCaseEntity>
