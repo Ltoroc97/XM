@@ -16,17 +16,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Transmision/Consultar Proyecto de Transmision Creado/SeleccionarProyectoTransaccional'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://xm-mdc-test.azurewebsites.net/#/')
+WebUI.click(findTestObject('Object Repository/Modulo Transmision/Consultar Activos y Parametros/td_Activos y Parmetros'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Modulo Transmision/Consultar Activos y Parametros/i_open_in_new'))
 
-WebUI.setText(findTestObject('Object Repository/Abrir Navegador/IniciarSesion/input_Bienvenido_username'), 'BG1222')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Abrir Navegador/IniciarSesion/input_Usuario_password'), 'aMLWA2JI8efiW7Vuw2cS6g==')
-
-WebUI.click(findTestObject('Object Repository/Abrir Navegador/IniciarSesion/button_Iniciar sesin'))
-
-WebUI.click(findTestObject('Object Repository/Abrir Navegador/IniciarSesion/a_faceBienvenido Danielxmcom'))
+WebUI.click(findTestObject('Object Repository/Modulo Transmision/Consultar Activos y Parametros/div_infoDetalles del Proyectokeyboard_arrow_down'))
 

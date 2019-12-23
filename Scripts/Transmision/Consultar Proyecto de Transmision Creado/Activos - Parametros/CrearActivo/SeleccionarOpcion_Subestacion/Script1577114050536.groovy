@@ -14,19 +14,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Transmision/Consultar Proyecto de Transmision Creado/Activos - Parametros/SeleccionarBoton_CrearActivo'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://xm-mdc-test.azurewebsites.net/#/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Abrir Navegador/IniciarSesion/input_Bienvenido_username'), 'BG1222')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Abrir Navegador/IniciarSesion/input_Usuario_password'), 'aMLWA2JI8efiW7Vuw2cS6g==')
-
-WebUI.click(findTestObject('Object Repository/Abrir Navegador/IniciarSesion/button_Iniciar sesin'))
-
-WebUI.click(findTestObject('Object Repository/Abrir Navegador/IniciarSesion/a_faceBienvenido Danielxmcom'))
+WebUI.click(findTestObject('Modulo Activos y Parametros/Consultar Activos y Parametros/Crear Activo - Subestacion/button_Subestacin'))
 
