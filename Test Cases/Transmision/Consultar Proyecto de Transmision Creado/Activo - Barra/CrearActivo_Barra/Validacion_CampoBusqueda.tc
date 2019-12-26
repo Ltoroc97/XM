@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VisualizarRegistroCreado</name>
+   <name>Validacion_CampoBusqueda</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0a664b54-cbed-4256-a79e-0121053c1cee</testCaseGuid>
+   <testCaseGuid>5bb0c71d-117e-47b8-8e1a-6eef03a2d0b2</testCaseGuid>
 </TestCaseEntity>

@@ -14,7 +14,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Transmision/Consultar Proyecto de Transmision Creado/Activos - Parametros/SeleccionarOpcion_Activos y Parametros'), 
+WebUI.callTestCase(findTestCase('Transmision/Consultar Proyecto de Transmision Creado/Activo - Barra/CrearActivo_Barra/SeleccionarOpcion_Barra'), 
     [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Modulo Transmision/Validaciones/input'), 'Nume')
+
+WebUI.sendKeys(findTestObject('Object Repository/Modulo Transmision/Validaciones/input'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/Modulo Transmision/Validaciones/input'), 'Es a')
+
+WebUI.sendKeys(findTestObject('Object Repository/Modulo Transmision/Validaciones/input'), Keys.chord(Keys.ENTER))
+
+WebUI.closeBrowser()
 
