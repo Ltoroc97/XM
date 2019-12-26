@@ -21,59 +21,52 @@ WebUI.callTestCase(findTestCase('Transmision/Consultar Proyecto de Transmision C
 
 WebUI.comment('Pestaña de Información Basica')
 
-WebUI.setText(findTestObject('null'), 
-    'implementación del caso activo')
+WebUI.setText(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/input_help_outline_substationNameId'), 
+    NombreSubestacion)
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.comment('Pestaña de Datos Técnicos')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/span_Datos tcnicos'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/a_flash_on  Datos tcnicos warning'))
 
-WebUI.setText(findTestObject('null'), 
-    '15')
+WebUI.setText(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/input'), '44')
 
-WebUI.setText(findTestObject('null'), 
-    '19')
+WebUI.sendKeys(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/input'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.comment('Pestaña de Datos Tecnicos')
+WebUI.setText(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/input_Configuracion'), 
+    'trans')
 
-WebUI.click(findTestObject('null'))
+WebUI.sendKeys(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/input_Configuracion'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('null'))
+WebUI.comment('Pestaña de Datos Administrativos')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/a_insert_chart_outlined Datos administrativos'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/span_Datos administrativos'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/label_Es activo STN - Herope'))
 
-WebUI.click(findTestObject('Modulo Transmision/Consultar Activos y Parametros/Diligenciar Informacion/div_Doble barra ms barra de transferencia'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/label_Es activo comercial del STR'))
 
-WebUI.comment('Pestaña Datos Administrativos')
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/label_Es activo consignable del sistema - SNC'))
 
-WebUI.click(findTestObject('null'))
+WebUI.comment('Vigencia')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/a_date_range  Vigencia'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/a_date_range  Vigencia'))
 
-WebUI.click(findTestObject('Abrir Navegador/Diligenciar Informacion/label_Es activo consignable del sistema - SNC'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/span_Vigencia'))
 
-WebUI.comment('Pestaña de Vigencia')
+WebUI.setText(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/textarea_help_outline_versionCommentsId'), 
+    'Se crea la OC 1.0')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/button_save Guardar'))
 
-WebUI.setText(findTestObject('null'), 
-    'Se crea el activo 1.0')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Diligenciar Informacion Activos Subestacion/div_Fu creada la subestacin  exitosamente S_8596d6'))
 

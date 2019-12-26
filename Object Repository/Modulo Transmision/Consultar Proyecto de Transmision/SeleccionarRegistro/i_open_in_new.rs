@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='xm-main']/article[2]/app-project-list/div/article/app-table-xm/div/div/div[2]/table/tbody/tr[9]/th/div/button/span/i</value>
+         <value>//main[@id='xm-main']/article[2]/app-project-list/div/article/app-table-xm/div/div/div[2]/table/tbody/tr[5]/th/div/button/span/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,41 +45,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='xm-main']/article[2]/app-project-list/div/article/app-table-xm/div/div/div[2]/table/tbody/tr[9]/th/div/button/span/i</value>
+      <value>//main[@id='xm-main']/article[2]/app-project-list/div/article/app-table-xm/div/div/div[2]/table/tbody/tr[5]/th/div/button/span/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='En trámite'])[6]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='En trámite'])[5]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[8]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[3]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='textsms'])[9]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='textsms'])[5]/preceding::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='sync_alt'])[9]/preceding::i[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sync_alt'])[5]/preceding::i[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[9]/th/div/button/span/i</value>
+      <value>//tr[5]/th/div/button/span/i</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Transmision/Consultar Proyecto de Transmision Creado/Activos - Parametros/SeleccionarOpcion_Activos y Parametros'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Activos y Parametros/Consultar Activos y Parametros/Crear Activo - Subestacion/button_Crear activos'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Consultar Activos y Parametros/Crear Activo - Subestacion/button_Crear activos'))
 

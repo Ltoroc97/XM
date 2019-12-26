@@ -14,7 +14,7 @@
       <guid>3b9d968e-0ae6-4e9a-b7fb-f7e52148fb66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Transmision/Crear Nuevo Proyecto/DiligenciarInformacion</testCaseId>
+      <testCaseId>Test Cases/Transmision/Crear Nuevo Proyecto/DiligenciarInformacion_Transmision</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c1351a37-ff18-4038-b9bb-c5a009231595</id>

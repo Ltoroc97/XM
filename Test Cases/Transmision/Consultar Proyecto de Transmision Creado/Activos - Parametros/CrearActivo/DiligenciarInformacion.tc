@@ -3,6 +3,16 @@
    <description></description>
    <name>DiligenciarInformacion</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Pestaña de Información Basica
+Pestaña de Datos Técnicos
+Pestaña de Datos Administrativos
+Vigencia</comment>
    <testCaseGuid>acd620a0-e18e-4838-966a-f5911707afd8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f3795376-1009-4a46-a949-c51229d3f202</id>
+      <masked>false</masked>
+      <name>NombreSubestacion</name>
+   </variable>
 </TestCaseEntity>

@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Transmision/Consultar Proyecto de Transmision Creado/Activos - Parametros/SeleccionarBoton_CrearActivo'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Activos y Parametros/Consultar Activos y Parametros/Crear Activo - Subestacion/button_Subestacin'))
+WebUI.click(findTestObject('Modulo Activos y Parametros_Subestacion/Consultar Activos y Parametros/Crear Activo - Subestacion/button_Subestacin'))
 

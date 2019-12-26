@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Transmision/SeleccionarOpcion_Transmision'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Modulo Transmision/Crear Nuevo Proyecto/a_note_add Nuevo proyecto'))
+WebUI.click(findTestObject('Object Repository/Modulo Transmision/Crear Nuevo Proyecto/a_note_add Nuevo'))
 
 WebUI.click(findTestObject('Object Repository/Modulo Transmision/Crear Nuevo Proyecto/h5_Registro Formulario Transmisin'))
 

@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//main[@id='xm-main']/article[2]/app-project-list/div/div[3]/div[3]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;xm-main&quot;)/article[@class=&quot;xm-forms&quot;]/app-project-list[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/a[@class=&quot;xm-btn xm-btnprimary&quot;][count(. | //*[@href = '#/transmision/createProject' and (text() = 'note_add Nuevo proyecto ' or . = 'note_add Nuevo proyecto ')]) = count(//*[@href = '#/transmision/createProject' and (text() = 'note_add Nuevo proyecto ' or . = 'note_add Nuevo proyecto ')])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -48,7 +52,7 @@
       <value>note_add Nuevo proyecto </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

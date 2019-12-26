@@ -18,9 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Transmision/SeleccionarOpcion_Transmision'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Modulo Transmision/Consultar Proyecto de Transmision/SeleccionarRegistro/a_2'))
+WebUI.comment('')
 
-WebUI.click(findTestObject('Object Repository/Modulo Transmision/Consultar Proyecto de Transmision/SeleccionarRegistro/td_PROFESIONALES EN ENERGIA SA ESP'))
+WebUI.click(findTestObject('Object Repository/Modulo Transmision/Consultar Proyecto de Transmision/SeleccionarRegistro/td_Liced Lorena Toro Catano'))
 
 WebUI.click(findTestObject('Object Repository/Modulo Transmision/Consultar Proyecto de Transmision/SeleccionarRegistro/i_open_in_new'))
 
